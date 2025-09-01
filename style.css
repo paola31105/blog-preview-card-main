@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+background-color: white;
+border-radius: 20px;
+box-shadow: 8px 8px 0px black;
+width: 400px;
+max-width: 100%;
+padding: 25px;
+}
+
+.naslovna {
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.published {
+    margin-bottom: 20px;
+}
+
+.title-text > h1 {
+    margin-bottom: 20px;
+}
+
+.title-text {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.name-pic {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.greg {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.text {
+    color: hsl(0, 0%, 42%);
+}
+
+
+
+
